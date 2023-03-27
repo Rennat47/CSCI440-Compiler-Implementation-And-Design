@@ -1,0 +1,23 @@
+/*
+   stackDemo.cm
+   This program calculates x^3 + 3x^2 + 3x + 1
+   for x=0; x<3; x++
+
+   Written by: Stuart Hansen
+   November 2021
+*/
+
+int x;
+int y;
+
+void main( void )
+{
+  x = 0;
+  while (x < 3) {
+    y = x*x*x + 3*x*x + 3*x + 1;
+    output(y);
+    x = x + 1;
+  }
+}
+
+
